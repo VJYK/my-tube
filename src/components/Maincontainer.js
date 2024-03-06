@@ -1,8 +1,12 @@
 import React from 'react'
-
+import ButtonList from "./ButtonList";
+import Video from "./Video";
 const Maincontainer = () => {
   return (
-    <div>Maincontainer</div>
+    <div className='flex'>
+      <ButtonList></ButtonList>
+      <Video></Video>
+    </div>
   )
 }
 
